@@ -1,0 +1,19 @@
+===BEGIN LAB1 SUBMISSION===
+student_id: 6705140005
+timestamp: 2026-09-01T08:10:01Z
+hostname: ubuntu
+---[user: getent passwd]---
+pim499:x:1001:1002::/home/pim499:/bin/bash
+---[group: getent group]---
+(MISSING group webteam)
+---[user-in-group: id]---
+uid=1001(pim499) gid=1002(pim499) groups=1002(pim499),1001(group1)
+---[file stat: home file mode/owner]---
+(MISSING file report_2964.txt)
+---[sshd effective config]---
+port 2222
+permitrootlogin yes
+passwordauthentication no
+---[integrity]---
+sshd_sha256: dd6a9005efd16defd0fb6e38e5f7b5d8a28fcea8de9ae4e7b2d7e9517bd7760b
+===END LAB1 SUBMISSION===
